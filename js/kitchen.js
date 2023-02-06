@@ -32,14 +32,16 @@ window.addEventListener("load", () => {
     function checkOrientation() {
         if (window.matchMedia("(orientation:portrait)").matches) {
 
-            rotateModal.style.display = 'none';
-            body.style.overflow = '';
-            wrapper.style.display = 'block';
-
-        } else {
             wrapper.style.display = 'none';
             rotateModal.style.display = 'block';
             body.style.overflow = 'hidden';
+
+
+
+        } else {
+            rotateModal.style.display = 'none';
+            body.style.overflow = '';
+            wrapper.style.display = 'block';
             // if (body.height < 400)
             //     burgerMakerKitchen.style.marginTop = '25vh';
         }
