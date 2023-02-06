@@ -367,7 +367,7 @@ header {
 .arrow-previous {
   width: 50px;
   height: 50px;
-  background-image: url(../img/kitchen/arrow.png);
+  background-image: url(img/kitchen/arrow.png);
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -390,7 +390,7 @@ header {
 .arrow-next {
   width: 50px;
   height: 50px;
-  background-image: url(../img/kitchen/arrow.png);
+  background-image: url(img/kitchen/arrow.png);
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -433,7 +433,7 @@ header {
 .kitchen-burger-holder {
   position: relative;
   margin: auto;
-  background-image: url(../img/kitchen/kithcen-blured-bckground.jpeg);
+  background-image: url(img/kitchen/kithcen-blured-bckground.jpeg);
   margin-top: 17vh;
   transition: height 0.3s ease-in-out;
   background-position-x: center;
@@ -486,7 +486,7 @@ header {
   background-repeat: no-repeat;
   width: 100%;
   height: 36px;
-  background-image: url(../img/kitchen/recycle-bin-lid3.png);
+  background-image: url(img/kitchen/recycle-bin-lid3.png);
   -webkit-animation: closing-lid 1s;
           animation: closing-lid 1s;
   z-index: -1;
@@ -498,7 +498,7 @@ header {
   background-repeat: no-repeat;
   width: 100%;
   height: 120px;
-  background-image: url(../img/kitchen/recycle-bin-can.png);
+  background-image: url(img/kitchen/recycle-bin-can.png);
 }
 
 @-webkit-keyframes opening-lid {
@@ -799,7 +799,7 @@ header {
   display: none;
 }
 .rotate-gif-modal .rotate-gif {
-  background-image: url(../img/kitchen/rotate-phone.gif);
+  background-image: url(img/kitchen/rotate-phone.gif);
   background-position-x: center;
   background-position-y: center;
   background-size: contain;
